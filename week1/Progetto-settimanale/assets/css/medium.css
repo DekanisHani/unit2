@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body .container {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*HEADER*/
+header {
+    background-color: #ffc017;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 5%;
+    border-bottom: 1px solid black;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.start {
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 9px 25px;
+    background-color: #191919;
+    border: none;
+    border-radius: 50px;
+    color: white;
+}
+
+@media screen and (max-width: 750px) {
+    ul li {
+        visibility: hidden;
+    }
+}
+
+/*MAIN ALTO*/
+main .yellow2 {
+    display: flex;
+    background-color: #ffc017;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 500px;
+}
+
+main .sx,
+.dx {
+    width: 50%;
+    contain: content;
+}
+
+main .sx {
+    display: flex;
+    margin-left: 100px;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main h1,
+p {
+    margin-bottom: 30px;
+}
+
+main h1 {
+    font-family: 'Spectral', serif;
+    font-size: 116px;
+}
+
+main p {
+
+    font-size: 1.5em;
+
+}
+
+main .reading {
+    width: 200px;
+    font-size: 1.2em;
+    padding: 15px 25px;
+    background-color: #191919;
+    border: none;
+    border-radius: 50px;
+    color: white;
+}
+
+/*MAIN CENTRALE*/
+main .trending {
+    font-weight: bold;
+    padding: 20px;
+    display: flex;
+    flex-flow: row;
+}
+
+article {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 3%;
+}
+
+article div {
+    display: flex;
+    width: 33%;
+    height: 200px;
+
+}
+
+/*DA TERMINARE, HO AVUTO NON POCHI PROBLEMI ALL'INIZIO
+MA QUESTO FINE SETTIMANA LO TERMINO.*/
