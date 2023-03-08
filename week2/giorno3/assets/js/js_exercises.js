@@ -34,8 +34,8 @@ console.log("Esercizio 4 ", pets)
 /* ESERCIZIO 5
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
-let last = (let_array) => { let_array.push(let_array.shift());
-     return let_array; 
+let last = (pet) => {pet.push(pet.shift());
+     return pet; 
     }
 console.log("Esercizio 5", last(pets));
 
